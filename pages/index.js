@@ -53,16 +53,13 @@ export default function Home() {
           </ul>
        </div>
 
-      {/* <main className={styles.main}> */}
+
       
         {/* HOME SECTION */}
       <div id="home">
         <div className="content">
           <h1>
-              {/* <Typed
-                    strings={['Hi, My Name is Simamkele Ngcasane']}
-                    typeSpeed={70}
-                /> */}
+
                 Hi, My Name is Simamkele Ngcasane
             </h1>
 
@@ -117,7 +114,7 @@ export default function Home() {
         </div>
 
         {/* WHY SOVTECH SECTION */}
-        <div id="sovtech">
+        <div id="sovtech" className='flex flex-col gap-2'>
           <h1>Why SovTech</h1>
           <hr />
           <br />
